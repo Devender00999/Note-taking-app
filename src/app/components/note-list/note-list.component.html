@@ -1,0 +1,15 @@
+<h2>Your Notes</h2>
+
+<div class="notes-container">
+  <div class="note" *ngFor="let note of notes; let i = index">
+    <div class="note-title-container">
+      <h3>{{ note.title }}</h3>
+      <div class="note-btns">
+        <button (click)="handleEditNote(note)">Edit</button>
+        <button class="danger" (click)="handleDeleteNote(note.id)">Delete</button>
+      </div>
+    </div>
+    <p>{{ note.content }}</p>
+    <hr />
+  </div>
+</div>

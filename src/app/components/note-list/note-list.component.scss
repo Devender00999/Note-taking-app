@@ -1,0 +1,19 @@
+.note {
+  margin-bottom: 20px;
+  .note-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+
+    h3 {
+      margin: 0;
+    }
+  }
+
+  .note-btns {
+    display: flex;
+    column-gap: 10px;
+    font-size: 13px;
+  }
+}

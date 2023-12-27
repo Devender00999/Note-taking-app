@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Note } from "../interfaces/note";
+import { Note } from "../../interfaces/note";
 import { Observable, BehaviorSubject } from "rxjs";
 
 @Injectable({

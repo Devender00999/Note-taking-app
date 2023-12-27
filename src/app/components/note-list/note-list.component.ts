@@ -1,6 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from "@angular/core";
 import { Note } from "src/app/interfaces/note";
-import { NoteService } from "src/app/services/note.service";
+import { NoteService } from "src/app/services/note/note.service";
 
 @Component({
   selector: "app-note-list",
